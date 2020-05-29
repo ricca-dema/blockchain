@@ -1,5 +1,3 @@
-# Progetto Sistemi e Reti
-
 ## Blockchain cos'è ?
 
 In realtà non c’è una vera e propria definizione di blockchain, ma possiamo pensarla a come una sottofamiglia di tecnologie il cui registro è una catena blocchi contenenti le transazioni in cui esiste una validazione affidata a un meccanismo di consenso, presente sui diversi nodi della rete (Blockchain permissioned).
