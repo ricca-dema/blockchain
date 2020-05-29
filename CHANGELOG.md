@@ -1,7 +1,7 @@
 
 ### 28 May 2020
 
-___
+
 
 [Commit 02]
 
@@ -27,7 +27,7 @@ ___
 	*  CHANGELOG.md
         > aggiornamento documento
 
-___
+
 
 [Commit 01]
 
