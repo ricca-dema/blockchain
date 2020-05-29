@@ -23,6 +23,7 @@
 	*  index.php  
 		> correzioni di impaginazione nei dispositivi mobile e tablet
 	*  CHANGELOG.md
+        > aggiornamento
 
   
 
