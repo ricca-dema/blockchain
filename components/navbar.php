@@ -1,10 +1,7 @@
 <header class="masthead mb-auto">
     <div class="inner">
-        <h3 class="masthead-brand">Cover</h3>
-        <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link active" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Contact</a>
-        </nav>
+        <a class="navbar-brand" href="/">
+            <img src="assets\media\nlogo.png" width="70" height="70" class="elementToRotate" alt="Blockchain">
+        </a>
     </div>
 </header>
