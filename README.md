@@ -22,12 +22,20 @@ La blockchain è un nuovo paradigma per la gestione delle informazioni che perme
 ## Consenso
 Il processo di validazione della blockchain prevede una fase di verifica e di approvazione basata su risorse di calcolo che vengono messe a disposizione dai partecipanti alla blockchain e che sono finalizzate alla risoluzione di problemi complessi o puzzle crittografici e che permettono di disporre di un Consenso Distribuito e non più di un consenso basato su un intermediario terzo o su un ente o istituzione centralizzata. Coloro che partecipano alla risoluzione del problema e che dunque concorrono alla validazione del processo e della transazione sono chiamati Miner e il loro intervento, che necessita per essere svolto di importanti risorse, viene remunerato attraverso l’emissione di una moneta virtuale o cryptocurrency.
 
-## Responsabilità
-*continuare*  
-
-## Programmabilità
-*continuare*  
  
+## Usi del blockchain(ambiti)
+
+## Blockchain 1.0
+Il primo utilizzo della blockchain riguarda tutte le applicazioni di carattere finanziario per la gestione di criptovalute a partire dalla storica (e che attualmente detiene ancora la leadership delle criptovalute) Bitcoin. In pratica, i bitcoin sono file che possono essere salvati nel wallet digitale di ogni utente. Ogni indirizzo bitcoin presente nel wallet può essere associato a un numero variabile di bitcoin. E a ogni indirizzo (chiave pubblica), viene associata una firma digitale (chiave privata), per assicurarsi che solo il proprietario di un certo indirizzo possa avviare una transazione a esso legata.
+## Blockchain 2.0
+Il secondo tipo di blockchain si estende a settori diversi dal finanziario grazie all’implementazione degli smart contract
+Lo smart contract non è altro che un contratto sotto forma di codice il quale rimanda l’esecuzione delle clausole a un software.
+## Blockchain 3.0
+Il futuro della blockchain con la diffusione delle Dapp (decentralized applications): un futuro in cui tutti noi utilizzeremo le tecnologie blockchain, probabilmente senza neanche rendercene conto, perché incapsulate nelle “cose” connesse tra loro, senza intervento umano.
+ 
+## Siti utilizzati :
 https://www.blockchain4innovation.it/esperti/blockchain-perche-e-cosi-importante/
+https://www.zerounoweb.it/cio-innovation/blockchain-cose-come-utilizzarla-e-come-cambiera-il-business/
+
  
 
