@@ -1,5 +1,5 @@
 
-## 28 May 2020
+### 28 May 2020
 
 [Commit 02]
 
@@ -23,7 +23,7 @@
 	*  index.php  
 		> correzioni di impaginazione nei dispositivi mobile e tablet
 	*  CHANGELOG.md
-        > aggiornamento
+        > aggiornamento documento
 
   
 
