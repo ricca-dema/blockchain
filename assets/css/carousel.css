@@ -1,0 +1,9 @@
+.carousel-control-prev {
+  margin-left: -22%;
+  width: 22%;
+}
+
+.carousel-control-next {
+  margin-right: -22%;
+  width: 22%;
+}
