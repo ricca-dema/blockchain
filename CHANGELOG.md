@@ -3,20 +3,7 @@
 
 
 
-[Commit 03]
-
-* Aggiunto :  
-	*  NON HO VOGLIA DI SCRIVERE
-		
-
-* Modificato :  
-	*  NON HO VOGLIA DI SCRIVERE
-	*  CHANGELOG.md
-        > aggiornamento documento
-
-
-
-[Commit 03]
+[Commit 04]
 
 * Aggiunto :  
 	*  NON HO VOGLIA DI SCRIVERE
