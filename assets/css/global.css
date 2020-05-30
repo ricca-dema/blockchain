@@ -162,7 +162,7 @@ body {
 
 .lead,
 .cover-heading,
-.btn {
+#startButton {
   transition: transform 0.8s;
   cursor: default;
 }
@@ -218,7 +218,7 @@ body {
 
 /* Effeto pulse bottone + shake */
 
-.btn {
+#startButton {
   border-radius: 5%;
   box-shadow: 0 0 0 rgba(255, 255, 255, 0.4);
   animation: pulse 2s infinite;
@@ -230,7 +230,7 @@ body {
   animation: shake 0.8s;
 }
 
-.btn:hover {
+#startButton:hover {
   animation: none;
   transform: scale(1.1);
 }
