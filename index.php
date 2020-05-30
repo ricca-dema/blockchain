@@ -26,9 +26,7 @@
         <?php require "components/navbar.php"; ?>
 
         <main role="main" class="inner cover">
-            <div class="titleUpDown p-0 m-0">
                 <h1 class="invisible cover-heading" id="secondElement">Blockchain</h1>
-            </div>
             <div class="invisible specs row" id="thirdElement">
                 <div class="col">
                     <p class="lead" onclick="shake();">Cos’è</p>

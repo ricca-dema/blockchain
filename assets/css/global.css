@@ -161,7 +161,8 @@ body {
 }
 
 .lead,
-.cover-heading {
+.cover-heading,
+.btn {
   transition: transform 0.8s;
   cursor: default;
 }
@@ -231,6 +232,7 @@ body {
 
 .btn:hover {
   animation: none;
+  transform: scale(1.1);
 }
 
 @-webkit-keyframes pulse {
