@@ -44,9 +44,42 @@ body {
   -webkit-box-pack: center;
   justify-content: center;
   background-color: #333;
-  color: #fff;
   text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.3);
+}
+
+/* Fade-in in caricamento */
+
+.invisible {
+  opacity: 0;
+}
+
+.nowVisible {
+  animation: fadeInAnimation ease 2.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(0, -10px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+  }
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    transform: translate(0, -10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
 
 /* Specs */
@@ -74,10 +107,6 @@ body {
   font-weight: 700;
 }
 
-.cover-container {
-  max-width: 45em;
-}
-
 /* Navbar */
 
 .masthead {
@@ -99,6 +128,31 @@ body {
   transform: scale(0.9);
 }
 
+
+@-webkit-keyframes moveupDown {
+  0% {
+    -webkit-transform: translate(0, 4px);
+  }
+  50% {
+    -webkit-transform: translate(0, 0px);
+  }
+  100% {
+    -webkit-transform: translate(0, 4px);
+  }
+}
+
+@keyframes moveupDown {
+  0% {
+    transform: translate(0, 4px);
+  }
+  50% {
+    transform: translate(0, 0px);
+  }
+  100% {
+    transform: translate(0, 4px);
+  }
+}
+
 /* Effeto shake finti link */
 
 .cover-heading {
@@ -116,8 +170,9 @@ body {
   transform: scale(1.1);
 }
 
-.cover-heading:hover {
-  transform: scale(1.1);
+.titleUpDown {
+  animation: moveupDown 1.7s;
+  animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes shake {
@@ -229,6 +284,7 @@ body {
   }
 }
 
+/* Firefox < 16 */
 @-moz-keyframes colorGradient {
   0% {
     background-position: 0% 51%;

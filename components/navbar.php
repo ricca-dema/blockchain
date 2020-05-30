@@ -1,7 +1,7 @@
-<header class="masthead mb-auto">
+<header class="invisible masthead mb-auto" id="firstElement">
     <div class="inner">
-        <a class="navbar-brand" href="/" style="margin: 0; padding-top: 1rem;">
-            <img src="<?php $_SERVER['DOCUMENT_ROOT'] ?> \assets\media\nlogo2.png" width="65" height="65" class="elementToRotate" alt="Blockchain">
+        <a class="navbar-brand m-0 py-3" href="/">
+            <img src="<?php $_SERVER['DOCUMENT_ROOT'] ?> \assets\media\nlogo2.png" width="65" height="65" class="elementToRotate" alt="Logo">
         </a>
     </div>
 </header>

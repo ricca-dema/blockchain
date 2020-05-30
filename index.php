@@ -20,33 +20,34 @@
     <title>Blockchain</title>
 </head>
 
-<body class="wallpaperAnimation text-center">
+<body class="wallpaperAnimation text-center text-white" onload="fadeinOnLoad();">
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
 
         <?php require "components/navbar.php"; ?>
 
-        <div class="animatedDiv">
-            <main role="main" class="inner cover">
-                <h1 class="cover-heading">Blockchain</h1>
-                <div class="specs row">
-                    <div class="col">
-                        <p class="lead" onclick="shake();">Cos’è</p>
-                    </div>
-                    <div class="col">
-                        <p class="lead" onclick="shake();">Caratteristiche</p>
-                    </div>
-                    <div class="col">
-                        <p class="lead" onclick="shake();">Utilizzi</p>
-                    </div>
+        <main role="main" class="inner cover">
+            <div class="titleUpDown p-0 m-0">
+                <h1 class="invisible cover-heading" id="secondElement">Blockchain</h1>
+            </div>
+            <div class="invisible specs row" id="thirdElement">
+                <div class="col">
+                    <p class="lead" onclick="shake();">Cos’è</p>
                 </div>
-                <p class="lead">
-                    <a href="pages\slides.php" class="btn btn-lg btn-outline-light" id="startButton">Iniziamo</a>
-                </p>
-            </main>
-        </div>
+                <div class="col">
+                    <p class="lead" onclick="shake();">Caratteristiche</p>
+                </div>
+                <div class="col">
+                    <p class="lead" onclick="shake();">Utilizzi</p>
+                </div>
+            </div>
+            <p class="invisible lead" id="fourthElement">
+                <a href="pages\slides.php" class="btn btn-lg btn-outline-light" id="startButton">Iniziamo</a>
+            </p>
+        </main>
 
         <?php require "components/footer.php"; ?>
 
+    </div>
     </div>
 </body>
 
