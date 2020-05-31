@@ -25,7 +25,7 @@
 
         <?php require $_SERVER['DOCUMENT_ROOT'] . "/components/jumbotron.php"; ?>
 
-        <div class="flex-column p-5 bg-white rounded border">
+        <div class="flex-column d-flex mx-auto p-5 bg-dark text-white rounded border">
             <div class="row justify-content-center">
                 <div class="col-md-6">
                     <p class="text-center">
@@ -42,18 +42,18 @@
             <b>Ecco alcune caratteristiche :</b>
             <br><br>
 
-            <div class="row px-5 justify-content-center">
+            
                 <div id="accordion">
-                    <div class="card">
+                    <div class="card bg-secondary">
                         <div class="card-header" id="headingOne">
                             <h5 class="mb-0">
-                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Decentralizzazione
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <a class = "text-white">Decentralizzazione</a>
                                 </button>
                             </h5>
                         </div>
 
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                             <div class="card-body">
                                 Permette di garantire la stessa funzionalità nella gestione dei Ledger, ma senza dover fare riferimento a una struttura centralizzata,
                                 senza cioè che sia necessario che una autorità centrale verifichi, controlli e autorizzi la legittimità di una transazione, di uno
@@ -63,11 +63,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card bg-secondary">
                         <div class="card-header" id="headingTwo">
                             <h5 class="mb-0">
                                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Trasparenza
+                                <a class = "text-white">Trasparenza</a>
                                 </button>
                             </h5>
                         </div>
@@ -80,11 +80,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card bg-secondary">
                         <div class="card-header" id="headingThree">
                             <h5 class="mb-0">
                                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Sicurezza
+                                <a class = "text-white">Sicurezza</a>
                                 </button>
                             </h5>
                         </div>
@@ -102,11 +102,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card bg-secondary">
                         <div class="card-header" id="headingFour">
                             <h5 class="mb-0">
                                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    Immutabilità
+                                <a class = "text-white">Immutabilità</a>
                                 </button>
                             </h5>
                         </div>
@@ -120,11 +120,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card bg-secondary">
                         <div class="card-header" id="headingFive">
                             <h5 class="mb-0">
                                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    Consenso
+                                <a class = "text-white">Consenso</a>
                                 </button>
                             </h5>
                         </div>
@@ -140,8 +140,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
 
+            
+
+            <br><br>
             <b>Usi del blockchain(ambiti)</b>
             <br><br>
 
@@ -158,7 +160,7 @@
                     </a>
                 </p>
                 <div class="collapse" id="collapse1">
-                    <div class="card card-body">
+                    <div class="card card-body bg-secondary">
                         Il primo utilizzo della blockchain riguarda tutte le applicazioni di carattere finanziario per la gestione di criptovalute a partire dalla storica
                         (e che attualmente detiene ancora la leadership delle criptovalute) Bitcoin.
                         In pratica, i bitcoin sono file che possono essere salvati nel wallet digitale di ogni utente.
@@ -168,13 +170,13 @@
                     </div>
                 </div>
                 <div class="collapse" id="collapse2">
-                    <div class="card card-body">
+                    <div class="card card-body bg-secondary">
                         Il secondo tipo di blockchain si estende a settori diversi dal finanziario grazie all’implementazione degli smart contract
                         Lo smart contract non è altro che un contratto sotto forma di codice il quale rimanda l’esecuzione delle clausole a un software.
                     </div>
                 </div>
                 <div class="collapse" id="collapse3">
-                    <div class="card card-body">
+                    <div class="card card-body bg-secondary">
                         Il futuro della blockchain con la diffusione delle Dapp (decentralized applications): un futuro in cui tutti noi utilizzeremo
                         le tecnologie blockchain, probabilmente senza neanche rendercene conto, perché incapsulate nelle “cose” connesse tra loro, senza intervento umano.
 

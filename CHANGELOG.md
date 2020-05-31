@@ -1,3 +1,20 @@
+### 31 May 2020
+
+
+[Commit 07]	
+
+* Aggiunto :
+	* slides.php
+		> 2 spazi in più nel carousel per slide
+
+	
+* Modificato :  
+	*  description.php
+		> stile/layout/colore bg e colore text della card riguardante le sezioni di descriprion
+	*  CHANGELOG.md
+        > aggiornamento documento
+
+
 
 ### 30 May 2020
 

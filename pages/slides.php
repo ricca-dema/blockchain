@@ -37,6 +37,12 @@
                 <div class="carousel-item">
                     <img src="\assets\slides\3.jpg" class="d-block w-100" alt="3">
                 </div>
+                <div class="carousel-item">
+                    <img src="\assets\slides\4.jpg" class="d-block w-100" alt="4">
+                </div>
+                <div class="carousel-item">
+                    <img src="\assets\slides\5.jpg" class="d-block w-100" alt="5">
+                </div>
             </div>
             <a class="invisible carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" id="secondElement">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
