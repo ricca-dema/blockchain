@@ -2,6 +2,38 @@
 ### 30 May 2020
 
 
+[Commit 06]
+
+* Aggiunto :
+	* contenitori per sezioni di description.php
+		> abbiamo aggiunto dei contenitori per le sezioni9 di descriptio
+	* link a scopri di più
+		> cliccandi su scopri di più rimanda al contenitore della sezione scelta grazie alla slide	
+	
+* Modificato :  
+	*  description.php
+		> eliminato la struttura destra e sinistra e implementato la struttura a contenitori linkabili
+	*  CHANGELOG.md
+        > aggiornamento documento
+
+
+
+
+
+[Commit 05]
+
+* Aggiunto :
+	* Varie sezioni in description.php
+		> il primo pensiero era di alternare le varie sezioni in destra e sinistra e aggiungere immagini
+	
+* Modificato :  
+	*  formattazione description.php
+	*  CHANGELOG.md
+        > aggiornamento documento
+
+
+
+
 
 [Commit 04]
 
