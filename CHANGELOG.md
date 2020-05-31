@@ -1,6 +1,20 @@
 ### 31 May 2020
 
 
+[Commit 08]	
+	
+* Modificato :  
+	*  global.php
+		> correzioni coflitti tra *btn*
+	*  jumbotron.php
+		> modifiche definitive
+	*  description.php
+		> modifica layout, colori e aggiunta animazione *fade-in* d'entrata
+	*  CHANGELOG.md
+        > aggiornamento documento
+
+
+
 [Commit 07]	
 
 * Aggiunto :
@@ -35,8 +49,6 @@
 
 
 
-
-
 [Commit 05]
 
 * Aggiunto :
@@ -47,8 +59,6 @@
 	*  formattazione description.php
 	*  CHANGELOG.md
         > aggiornamento documento
-
-
 
 
 
@@ -94,7 +104,6 @@
 
 
 ### 29 May 2020
-
 
 
 [Commit 02]
